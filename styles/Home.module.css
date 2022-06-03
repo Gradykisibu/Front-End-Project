@@ -1,6 +1,33 @@
 .container {
   padding: 0 2rem;
 }
+.header{
+  background: rgb(255, 252, 253);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 252, 253, 1) 13%,
+    rgba(160, 192, 231, 1) 43%,
+    rgba(160, 231, 214, 1) 49%,
+    rgba(173, 228, 228, 1) 53%,
+    rgba(160, 192, 231, 1) 59%,
+    rgba(193, 210, 230, 1) 72%,
+    rgba(240, 240, 240, 1) 100%
+    );
+}
+.background {
+  background: rgb(255, 252, 253);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 252, 253, 1) 13%,
+    rgba(160, 192, 231, 1) 43%,
+    rgba(160, 231, 214, 1) 49%,
+    rgba(173, 228, 228, 1) 53%,
+    rgba(160, 192, 231, 1) 59%,
+    rgba(193, 210, 230, 1) 72%,
+    rgba(240, 240, 240, 1) 100%
+    );
+  
+}
 
 .main {
   min-height: 100vh;
@@ -10,6 +37,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.item {
+  width: 50px;
 }
 
 .footer {
